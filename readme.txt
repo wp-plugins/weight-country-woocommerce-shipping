@@ -1,7 +1,6 @@
 === Weight Country WooCommerce Shipping ===
 Contributors: DaZ_008
-Donate link: www.wooforce.com
-Tags: Weight, Country, Shipping,  Weight Based Shipping,Country Based Shipping, Weight Country Shipping, Rule Based Shipping, Table Rate Shipping, WooCommerce Shipping
+Tags: Weight Shipping, Country Shipping, Shipping,  Weight Based Shipping,Country Based Shipping, Weight Country Shipping, Rule Based Shipping, Table Rate Shipping, WooCommerce Shipping
 Requires at least: 3.0.1
 Tested up to: 4.1
 Stable tag: 1.0.0
@@ -16,9 +15,9 @@ WooForce Weight Country WooCommerce Shipping plugin extends WooCommerce default 
 
 Define multiple shipping rates based on weight slabs or country/ country groups. Multiple countries can be grouped to form regions/zones for which same shipping rates can be applied.
 
-**Add weight slabs as rows and set shipping cost**
-**Add multiple countries as shipping destinations and set common shipping rates**
-**Add multiple tables of rates per shipping region or per country groups**
+* Add weight slabs as rows and set shipping cost
+* Add multiple countries as shipping destinations and set common shipping rates
+* Add multiple tables of rates per shipping region or per country groups
 
 
 If you are looking for a WooCommerce Shipping plugin to calculate shipping charges based on cart weight (total order weight) and country of delivery then this may be the right plugin for you
@@ -33,25 +32,25 @@ When a customer checks out items in their cart, the plugin looks at the destinat
 To calculate shipping correctly, you need to set weight ranges and corresponding shipping rates . The plugin will take care of all the calculations for you.
 
 
-=Simple Intuitive Shipping Rate Table=
+= Simple Intuitive Shipping Rate Table =
 
 An easy to understand shipping rule matrix will help you to configure all weight based rules easily
 
 
-=Set Shipping Rates for Country or Country Groups =
+= Set Shipping Rates for Country or Country Groups =
 
 You can create as many shipping rules as you need for different shipping destination countries and order weight ranges
 
 
-=Dynamic calculation of rates =
+= Dynamic calculation of rates =
 
 Rates for any weight and country combination can be set in the rule table/matrix. Our plugin will calculate the rates for the cart or order weight based on the rules you have set
 	
-=Customization Services=
+= Customization Services =
 
 If you need to change or extend the plugin with your own specific features we can do that for a reasonable fee.
 
-=WooForce Shipping Plugins=
+= WooForce Shipping Plugins =
 
 WooForce understands that every store is different and has unique shipping needs. In case you find it difficult to set up the shipping based on your unique requirements, we can guide you through the process of setting it up.
 
@@ -70,35 +69,36 @@ Please contact us at info@wooforce.com in case you have any questions. Our websi
 2. Activate the plugin through the ‘Plugins’ menu in WordPress.
 3. Thats it – you can now configure the plugin.
 
-=Setting up the Plugin=
+= Setting up the Plugin =
 
 Once the plugin has been activated, navigate to WooCommerce > Settings > Shipping. All shipping methods will be listed at the top of the screen, underneath the tabs. Click on ‘Weight Country Shipping’
 
 You can now configure the method.
 
-**Enable/Disable** - Enable the shipping method by selecting Enable/Disable select box.
-**Title** - Title which the user sees during checkout.
+* **Enable/Disable** - Enable the shipping method by selecting Enable/Disable select box.
+* **Title** - Title which the user sees during checkout.
 
 Add a new row in the Rate Matrix table by clicking on the ‘Add Rule’ button. The following fields need to be filled in.
 
 Let us take a case where you want to set the shipping rate for the weight slab 5-10kg for USA. You have decided that for 5kg you will charge 10USD and there after for every additional kg you will charge 1 USD till 10kg.
 
-**Countries** - Select the list of countries this rule applies to. For e.g. USA
-**Min weight** -  Minimum weight for the weight slab. For e.g. 5kg
-**Max weight** - Maximum weight for the weight slab. For e.g. 10kg
-**Base cost** - The base cost (minimum shipping handling charge) which is applied to the weight slab. For e.g. 10 (USD)
-**Cost per weight unit** - If  a value is entered for this field, it will be be multiplied to the weight above Min weight. For e.g. 1 (USD) . 
-**Weight rounding to**- If the cart weight falls into a number between the min weight and max weight, you may decide the rounding weight based on which the rate calculation need should be made.
+* **Countries** - Select the list of countries this rule applies to. For e.g. USA
+* **Min weight** -  Minimum weight for the weight slab. For e.g. 5kg
+* **Max weight** - Maximum weight for the weight slab. For e.g. 10kg
+* **Base cost** - The base cost (minimum shipping handling charge) which is applied to the weight slab. For e.g. 10 (USD)
+* **Cost per weightt** - If  a value is entered for this field, it will be be multiplied to the weight above Min weight. For e.g. 1 (USD) . 
+* **Weight rounding**- If the cart weight falls into a number between the min weight and max weight, you may decide the rounding weight based on which the rate calculation need should be made.
 
 Based on the above sample configuration, if a customer’s cart weights 8kg (weight of all products in the cart combined), the shipping rate will be calculated as follows
 
 Shipping rate = Base Cost  + (8 - Min Weight) * Cost per weight unit
-= 10 + (8 - 5) * 1 = 13 USD
+=10 + (8 - 5) * 1 =13 USD
 
 == Screenshots ==
 
 1. Plugin Configuration Screen
-2. Checkout Screen
+2. Shipping Rate Matrix
+3. Checkout Screen
 
 == Changelog ==
 = 1.0 =
