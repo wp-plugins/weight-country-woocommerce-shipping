@@ -3,7 +3,7 @@ Contributors: DaZ_008
 Tags: Weight Shipping, Country Shipping, Shipping,  Weight Based Shipping,Country Based Shipping, Weight Country Shipping, Rule Based Shipping, Table Rate Shipping, WooCommerce Shipping
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -115,6 +115,9 @@ Shipping rate = Base Cost  + (8 - Min Weight) * Cost per weight unit
  * minor release. Fixed technical warnings.	
 = 1.1.2 =
  * minor release. Fixed technical warnings.	
+= 1.1.3 =
+ * Minor release: backward compatibility for the new column added to the matrix
+ 
 
 == Upgrade Notice ==
 = 1.0 =
@@ -125,3 +128,5 @@ Many features to enahane the usability. nothing breaking. can update safely.
 Minor release: fixed technical warning
 = 1.1.2 =
 Minor release: fixed technical warning
+= 1.1.3 =
+Minor release: backward compatibility for the new column added to the matrix
