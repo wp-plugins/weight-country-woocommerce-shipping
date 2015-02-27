@@ -3,7 +3,7 @@
 	Plugin Name: Weight Country WooCommerce Shipping
 	Plugin URI: http://www.wooforce.com
 	Description: User friendly Weight and Country based WooCommerce Shipping plug-in. Dynamic Rule based Shipping Rates, Define Weight Ranges, Set Shipping Rate for Country Groups.
-	Version: 1.0.0
+	Version: 1.1.0
 	Author: WooForce
 	Author URI: http://www.wooforce.com
 	Copyright: 2014-2015 WooForce.
