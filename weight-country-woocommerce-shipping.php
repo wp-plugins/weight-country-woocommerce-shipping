@@ -3,7 +3,7 @@
 	Plugin Name: Weight Country WooCommerce Shipping
 	Plugin URI: http://www.wooforce.com
 	Description: User friendly Weight and Country based WooCommerce Shipping plug-in. Dynamic Rule based Shipping Rates, Define Weight Ranges, Set Shipping Rate for Country Groups.
-	Version: 1.1.1
+	Version: 1.1.2
 	Author: WooForce
 	Author URI: http://www.wooforce.com
 	Copyright: 2014-2015 WooForce.
@@ -26,11 +26,13 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 					$this->init_settings();
 
 					$this->title = $this->settings['title'];
-					$this->enabled = $this->settings['enabled']; 
-					$this->debug = $this->settings['debug']; 					
+					$this->enabled = $this->settings['enabled'];
+					//get_option fill default if doesn't exist. other settings also can change to this
+					$this->debug = $this->get_option('debug');				
 					$this->tax_status       = $this->settings['tax_status'];
 					$this->rate_matrix       = $this->settings['rate_matrix'];
-					$this->displayed_columns       = $this->settings['displayed_columns'];
+					//get_option fill default if doesn't exist. other settings also can change to this
+					$this->displayed_columns       = $this->get_option('displayed_columns');
 					
 					$this->shipping_countries = WC()->countries->get_shipping_countries();
 					
