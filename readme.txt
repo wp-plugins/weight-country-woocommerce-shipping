@@ -3,7 +3,7 @@ Contributors: DaZ_008
 Tags: Weight Shipping, Country Shipping, Shipping,  Weight Based Shipping,Country Based Shipping, Weight Country Shipping, Rule Based Shipping, Table Rate Shipping, WooCommerce Shipping
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -104,8 +104,16 @@ Shipping rate = Base Cost  + (8 - Min Weight) * Cost per weight unit
 = 1.0 =
  * Weight based shipping rates
  * Country based shipping rules
-
+= 1.1 =
+ * option to choose "Rest of the world" in country 
+ * Option to choose "Any Country"  in country
+ * Added Service name column to provide multiple shipping options
+ * Duplicate Rows Button
+ * A new field Multiselection combo box : Display/Hide Matrix Columns
+ * A new column 'Note' to text translation of shipping matrix rule
 
 == Upgrade Notice ==
 = 1.0 =
 Initial release
+= 1.1 =
+Many features to enahane the usability. nothing breaking. can update safely.  
