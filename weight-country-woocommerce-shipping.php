@@ -3,7 +3,7 @@
 	Plugin Name: Weight Country WooCommerce Shipping
 	Plugin URI: http://www.wooforce.com
 	Description: User friendly Weight and Country based WooCommerce Shipping plug-in. Dynamic Rule based Shipping Rates, Define Weight Ranges, Set Shipping Rate for Country Groups.
-	Version: 1.1.0
+	Version: 1.1.1
 	Author: WooForce
 	Author URI: http://www.wooforce.com
 	Copyright: 2014-2015 WooForce.
@@ -255,7 +255,7 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 									foreach ( $this->rate_matrix as $key => $box ) {												
 										$defined_countries = $box['country_list'] ?: array();?>
 										<tr><td class="check-column"><input type="checkbox" /></td>
-										<td class="<?= $this->wf_hidden_matrix_column('shipping_name');?>"><input type='text' size='10' name='rate_matrix[<?= $key;?>][shipping_name]' placeholder='<?php echo $this->title;?>' value='<?= $box[shipping_name]; ?>' /></td>
+										<td class="<?= $this->wf_hidden_matrix_column('shipping_name');?>"><input type='text' size='10' name='rate_matrix[<?= $key;?>][shipping_name]' placeholder='<?php echo $this->title;?>' value='<?= $box['shipping_name']; ?>' /></td>
 										<td class="<?= $this->wf_hidden_matrix_column('country_list');?>" style='overflow:visible'>
 										<select id="country_list_combo" class="multiselect wc-enhanced-select enabled" multiple="true" style="width:100%;" name='rate_matrix[<?echo $key;?>][country_list][]'>
 											<option value="any_country" <?php selected(in_array('any_country',$defined_countries),true);?>>Any Country</option>
@@ -265,11 +265,11 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 											<?php } ?>															
 										</select>
 										</td>										
-										<td class="<?= $this->wf_hidden_matrix_column('min_weight');?>"><input type='text' size='3' name='rate_matrix[<?= $key;?>][min_weight]' 		value='<?= $box[min_weight]; ?>' /></td>
-										<td class="<?= $this->wf_hidden_matrix_column('max_weight');?>"><input type='text' size='3' name='rate_matrix[<?= $key;?>][max_weight]' 		value='<?= $box[max_weight]; ?>' /></td>
-										<td class="<?= $this->wf_hidden_matrix_column('fee');?>"><input type='text' size='5' name='rate_matrix[<?= $key;?>][fee]'				value='<?= $box[fee]; ?>' /></td>
-										<td class="<?= $this->wf_hidden_matrix_column('cost');?>"><input type='text' size='5' name='rate_matrix[<?= $key;?>][cost]'			value='<?= $box[cost]; ?>' /></td>
-										<td class="<?= $this->wf_hidden_matrix_column('weigh_rounding');?>"><input type='text' size='1' name='rate_matrix[<?= $key;?>][weigh_rounding]' 	value='<?= $box[weigh_rounding]; ?>' /></td>																						
+										<td class="<?= $this->wf_hidden_matrix_column('min_weight');?>"><input type='text' size='3' name='rate_matrix[<?= $key;?>][min_weight]' 		value='<?= $box['min_weight']; ?>' /></td>
+										<td class="<?= $this->wf_hidden_matrix_column('max_weight');?>"><input type='text' size='3' name='rate_matrix[<?= $key;?>][max_weight]' 		value='<?= $box['max_weight']; ?>' /></td>
+										<td class="<?= $this->wf_hidden_matrix_column('fee');?>"><input type='text' size='5' name='rate_matrix[<?= $key;?>][fee]'				value='<?= $box['fee']; ?>' /></td>
+										<td class="<?= $this->wf_hidden_matrix_column('cost');?>"><input type='text' size='5' name='rate_matrix[<?= $key;?>][cost]'			value='<?= $box['cost']; ?>' /></td>
+										<td class="<?= $this->wf_hidden_matrix_column('weigh_rounding');?>"><input type='text' size='1' name='rate_matrix[<?= $key;?>][weigh_rounding]' 	value='<?= $box['weigh_rounding']; ?>' /></td>																						
 										<td><img class="help_tip" style="float:none;" data-tip="<?= $this->wf_rule_to_text($key ,$box);?>" src="<?= WC()->plugin_url();?>/assets/images/help.png" height="16" width="16" /></td>																						
 										
 										</tr>
