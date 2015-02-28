@@ -13,8 +13,9 @@ User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weig
 
 WooForce Weight Country WooCommerce Shipping plugin extends WooCommerce default shipping options giving you simple and flexible shipping options.
 
-[List of features.](http://www.wooforce.com/how-weight-country-woocommerce-shipping-plugin-enhanced-simplified-woocommerce-shipping-module/)
-[Different business cases.](http://www.wooforce.com/business-case-handled-by-wordpress-woocommerce-weight-and-country-based-shipping/ "Business cases handled by Wordpress / WooCommerce Weight and Country based shipping")
+[List of features](http://www.wooforce.com/how-weight-country-woocommerce-shipping-plugin-enhanced-simplified-woocommerce-shipping-module/)
+
+[Business cases handled](http://www.wooforce.com/business-case-handled-by-wordpress-woocommerce-weight-and-country-based-shipping/)
 
 Define multiple shipping rates based on weight slabs or country/ country groups. Multiple countries can be grouped to form regions/zones for which same shipping rates can be applied.
 
