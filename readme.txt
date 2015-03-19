@@ -16,6 +16,7 @@ WooForce creates quality WordPress/WooCommerce plug-ins that are easy to use and
 
 Checkout our latest USPS WooCommerce Shipping Rates and Label plugin in [codecanyon](http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330)
 
+= Introduction =
 WooForce Weight Country WooCommerce Shipping plugin extends WooCommerce default shipping options giving you simple and flexible shipping options.
 
 [List of features](http://www.wooforce.com/how-weight-country-woocommerce-shipping-plugin-enhanced-simplified-woocommerce-shipping-module/)
