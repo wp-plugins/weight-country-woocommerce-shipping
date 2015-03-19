@@ -14,7 +14,7 @@ User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weig
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
-Checkout our latest USPS WooCommerce Shipping Rates and Label plugin in [codecanyon](http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330)
+Buy our latest USPS WooCommerce Shipping Rates and Label plugin from [codecanyon](http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330)
 
 = Introduction =
 WooForce Weight Country WooCommerce Shipping plugin extends WooCommerce default shipping options giving you simple and flexible shipping options.
