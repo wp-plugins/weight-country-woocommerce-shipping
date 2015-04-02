@@ -15,6 +15,17 @@ User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weig
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
 <blockquote>
+= Buy Premium version from Codecanyon for just $24/- =
+<a rel="nofollow" href="http://codecanyon.net/item/woocommerce-shipping-pro/10982849?ref=WooForce">Buy From Codecanyon!</a>
+
+= Premium version Features =
+<ul>
+<li>Rules based on State/Post Code</li>
+<li>Rules based on Product Category</li>
+<li>Rules based on Shipping Class</li>
+<li>Order based / Item based Shipping Rules</li>
+</ul>
+
 = Buy our latest Canada Post WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
 <a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749?ref=WooForce">Buy From Codecanyon!</a>
 
