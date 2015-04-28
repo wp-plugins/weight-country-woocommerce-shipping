@@ -26,11 +26,17 @@ User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weig
 <li>Order based / Item based Shipping Rules</li>
 </ul>
 
-= Buy our latest Canada Post WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
+= Buy our Canada Post WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
 <a rel="nofollow" href="http://codecanyon.net/item/canada-post-woocommerce-shipping-with-print-label/10881749?ref=WooForce">Buy From Codecanyon!</a>
 
-= Buy our latest USPS WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
+= Buy our USPS WooCommerce Shipping Rates and Label plugin from Codecanyon for just $21/- =
 <a rel="nofollow" href="http://codecanyon.net/item/usps-woocommerce-shipping-and-label/10755330?ref=WooForce">Buy From Codecanyon!</a>
+
+= Buy our UPS WooCommerce Shipping with Print Label plugin from Codecanyon for just $21/- =
+<a rel="nofollow" href="http://codecanyon.net/item/ups-woocommerce-shipping-with-print-label/11035787?ref=WooForce">Buy From Codecanyon!</a>
+
+= Buy our latest FedEx WooCommerce Shipping with Print Label  plugin from Codecanyon for just $21/- =
+<a rel="nofollow" href="http://codecanyon.net/item/fedex-woocommerce-shipping-with-print-label/11263057?ref=WooForce">Buy From Codecanyon!</a>
 </blockquote>
 
 = Introduction =
