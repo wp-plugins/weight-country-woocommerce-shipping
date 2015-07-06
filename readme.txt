@@ -45,13 +45,13 @@ User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weig
 = Buy WooCommerce Shipment Tracking plugin for just $21/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipment-tracking/">Buy Now!</a>
 
-= Buy Australia Post WooCommerce Shipping plugin for just $21/- =
+= Buy Australia Post WooCommerce Shipping plugin for just $28/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/australia-post-woocommerce-shipping-plugin/">Buy Now!</a>
 
-= Buy Stamps.com WooCommerce Extension with USPS Postage plugin for just $21/- =
+= Buy Stamps.com WooCommerce Extension with USPS Postage plugin for just $25/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/stamps-com-woocommerce-extension-with-usps-postage/">Buy Now!</a>
 
-= Buy DHL WooCommerce Shipping with Print Label plugin for just $21/- =
+= Buy DHL WooCommerce Shipping with Print Label plugin for just $28/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/dhl-woocommerce-shipping-with-print-label/">Buy Now!</a>
 </blockquote>
 
