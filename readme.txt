@@ -30,17 +30,17 @@ User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weig
 <li>Order based / Item based Shipping Rules</li>
 </ul>
 
-= Buy Canada Post WooCommerce Shipping Rates and Label plugin for just $21/- =
-<a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-setup/">Buy Now!</a>
+= Buy Canada Post WooCommerce Shipping Rates and Print Label plugin for just $21/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/canada-post-woocommerce-shipping-with-print-label-plugin/">Buy Now!</a>
 
 = Buy USPS WooCommerce Shipping Rates and Label plugin for just $21/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/usps-woocommerce-shipping-with-print-label/">Buy Now!</a>
 
 = Buy UPS WooCommerce Shipping with Print Label plugin for just $21/- =
-<a rel="nofollow" href="http://www.wooforce.com/product/ups-woocommerce-shipping-setup/">Buy Now!</a>
+<a rel="nofollow" href="http://www.wooforce.com/product/ups-woocommerce-shipping-with-print-label-plugin/">Buy Now!</a>
 
-= Buy FedEx WooCommerce Shipping with Print Label  plugin for just $21/- =
-<a rel="nofollow" href="http://www.wooforce.com/product/fedex-woocommerce-shipping-plugin/">Buy Now!</a>
+= Buy FedEx WooCommerce Shipping with Print Label plugin for just $21/- =
+<a rel="nofollow" href="http://www.wooforce.com/product/fedex-woocommerce-shipping-with-print-label-plugin/">Buy Now!</a>
 
 = Buy WooCommerce Shipment Tracking plugin for just $21/- =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipment-tracking/">Buy Now!</a>
