@@ -14,10 +14,11 @@ User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weig
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
-<blockquote>
 = Buy Premium version =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipping-pro-with-table-rates-plugin/">Buy Now!</a>
 [youtube https://www.youtube.com/watch?v=tSKcKClrQWA]
+
+<blockquote>
 = Premium version Features =
 <ul>
 <li>Rules based on State/Post Code</li>
