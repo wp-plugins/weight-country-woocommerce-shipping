@@ -10,10 +10,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weight Based Shipping Rates,  Set Shipping Rate for Country Groups
 
 == Description ==
-<blockquote>
-= Free version is no longer maintained. =  
-<a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipping-pro-with-table-rates-plugin/">Please BUY latest version</a>
-</blockquote>
 
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
@@ -21,7 +17,7 @@ User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weig
 <blockquote>
 = Buy Premium version =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipping-pro-with-table-rates-plugin/">Buy Now!</a>
-
+[youtube https://www.youtube.com/watch?v=tSKcKClrQWA]
 = Premium version Features =
 <ul>
 <li>Rules based on State/Post Code</li>
