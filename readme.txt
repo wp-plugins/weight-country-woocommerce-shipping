@@ -1,5 +1,5 @@
 === Weight Country WooCommerce Shipping ===
-Contributors: DaZ_008
+Contributors: WooForce
 Tags: Weight Shipping, Country Shipping, Shipping,  Weight Based Shipping,Country Based Shipping, Weight Country Shipping, Rule Based Shipping, Table Rate Shipping, WooCommerce Shipping
 Requires at least: 3.0.1
 Tested up to: 4.1
