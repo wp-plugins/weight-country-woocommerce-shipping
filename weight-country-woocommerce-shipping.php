@@ -2,8 +2,8 @@
 /*
 	Plugin Name: Weight Country WooCommerce Shipping
 	Plugin URI: http://www.wooforce.com
-	Description: User friendly Weight and Country based WooCommerce Shipping plug-in. Dynamic Rule based Shipping Rates, Define Weight Ranges, Set Shipping Rate for Country Groups.
-	Version: 1.1.3
+	Description: User friendly Weight and Country based WooCommerce Shipping plug-in. Upgrade to Shipping Pro No.1 WooCommerce Shipping Plugin. Configure your shipping with the help of our experts!. 30 Day no question asked refund. 
+	Version: 1.1.4
 	Author: WooForce
 	Author URI: http://www.wooforce.com
 	Copyright: 2014-2015 WooForce.
@@ -464,19 +464,40 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 				}
 				
 				public function admin_options() {
-
+					// Check users environment supports this method
 					?>
-					<h3><?php _e('Weight and Country based shipping', 'wf_country_weight_shipping'); ?></h3>
-					<p><?php _e('Calculates shipping fee based on country and weight of the order.', 'wf_country_weight_shipping' ); ?>				  
-				    </p>
-					<table class="form-table">
-					<?php
-						// Generate the HTML for the settings form.
-						$this->generate_settings_html();
-					?>
-					</table><!--/.form-table-->
-					<?php
-				}
+					<div class="wf-banner updated below-h2">
+						<img class="scale-with-grid" src="http://www.wooforce.com/wp-content/uploads/2015/07/WooForce-Logo-Admin-Banner-Basic.png" alt="Wordpress / WooCommerce Canada Post Shipping with Print Label Plugin | WooForce">
+						<p class="main"><strong>Upgrade to Shipping Pro No.1 WooCommerce Shipping Plugin. Configure your shipping with the help of our experts!. 30 Day no question asked refund.</strong></p>
+						<p>&nbsp;-&nbsp;Zone based shipping costs (By Country / State / Post Code).<br>
+						&nbsp;-&nbsp;Product Category based shipping costs (By Product Category/Shipping Class).<br>
+						&nbsp;-&nbsp;Unit based shipping costs (By Weight/ Quantity/ Price).<br>
+						&nbsp;-&nbsp;Provide many shipping service options for buyer to choose(Ex: Regular Delivery, Next Day Delivery, etc).<br>
+						&nbsp;-&nbsp;Many Calculation Options(Fixed Cost / Unit Based Cost / Percentage Based Cost / Step-or-Round based cost).<br>
+						&nbsp;-&nbsp;Calculate each ‘item’ or ‘product category’ or ‘shipping class’  cost separately and sum to find the final shipping cost, OR Calculate entire order shipping cost together.<br>
+						&nbsp;-&nbsp;Per Product Shipping using free AddOn.<br>
+						&nbsp;-&nbsp;Advanced Bundle Rate Shipping using free AddOn.<br>
+						&nbsp;-&nbsp;International shipping using Rest of the world & Rest of the country & Any Country & Any States short-codes.<br>
+						&nbsp;-&nbsp;Use for Flat Rate Shipping and Free Shipping.<br>
+						&nbsp;-&nbsp;Add Handling Fees.<br>
+						&nbsp;-&nbsp;Shipping Rules Import & Export via CSV.<br>
+						&nbsp;-&nbsp;Plain text translation of shipping calculations.<br>
+						&nbsp;-&nbsp;Hide the column(s) which are not relevant for the business case.<br>
+						&nbsp;-&nbsp;Multilingual support. English & German translation in built available.<br>
+						&nbsp;-&nbsp;Excellent Support for setting it up!</p>
+						<p><a href="http://www.wooforce.com/product/woocommerce-shipping-pro-with-table-rates-plugin/" target="_blank" class="button button-primary">Upgrade to Premium Version</a> <a href="http://wooshippingpro.wooforce.com/wp-admin/admin.php?page=wc-settings&tab=shipping&section=wf_woocommerce_shipping_pro_method" target="_blank" class="button">Live Demo</a></p>
+					</div>
+					<style>
+					.wf-banner img {
+						float: right;
+						margin-left: 1em;
+						padding: 15px 0
+					}
+					</style>
+					<?php 
+					// Show settings
+					parent::admin_options();
+				}				
 			} 
 		}		
 	}
@@ -486,5 +507,15 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 		$methods[] = 'wf_country_weight_shipping_method';
 		return $methods;
 	}
-	add_filter( 'woocommerce_shipping_methods', 'wf_add_country_weight_shipping_init' );	
+	add_filter( 'woocommerce_shipping_methods', 'wf_add_country_weight_shipping_init' );
+
+	function wf_weight_country_plugin_action_links( $links ) {
+		$plugin_links = array(
+			'<a href="' . admin_url( 'admin.php?page=wc-settings&tab=shipping&section=wf_country_weight_shipping_method' ) . '">' . __( 'Settings', 'wf_country_weight_shipping' ) . '</a>',
+			'<a href="http://www.wooforce.com/pages/contact/">' . __( 'Support', 'wf_country_weight_shipping' ) . '</a>',
+		);
+		return array_merge( $plugin_links, $links );
+	}
+	add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'wf_weight_country_plugin_action_links' );
+		
 }

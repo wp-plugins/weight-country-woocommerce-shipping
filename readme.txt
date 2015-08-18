@@ -3,7 +3,7 @@ Contributors: WooForce
 Tags: Weight Shipping, Country Shipping, Shipping,  Weight Based Shipping,Country Based Shipping, Weight Country Shipping, Rule Based Shipping, Table Rate Shipping, WooCommerce Shipping
 Requires at least: 3.0.1
 Tested up to: 4.2.4
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,17 +14,30 @@ User friendly Weight and Country based WooCommerce Shipping Plugin. Dynamic Weig
 = About WooForce.com =
 [WooForce.com](http://www.wooforce.com/) creates quality WordPress/WooCommerce plug-ins that are easy to use and customize. We are proud to have hundreds of customers actively using our plug-ins across the globe.
 
-= Buy Premium version =
+= Buy Shipping Pro No.1 WooCommerce Shipping Plugin =
 <a rel="nofollow" href="http://www.wooforce.com/product/woocommerce-shipping-pro-with-table-rates-plugin/">Buy Now!</a>
 [youtube https://www.youtube.com/watch?v=tSKcKClrQWA]
 
 <blockquote>
-= Premium version Features =
+= Premium Shipping Pro Features =
+Configure your shipping with the help of our experts!. 30 Day no question asked refund.
 <ul>
-<li>Rules based on State/Post Code</li>
-<li>Rules based on Product Category</li>
-<li>Rules based on Shipping Class</li>
-<li>Order based / Item based Shipping Rules</li>
+<li>Zone based shipping costs (By Country / State / Post Code).</li>
+<li>Product Category based shipping costs (By Product Category/Shipping Class).</li>
+<li>Unit based shipping costs (By Weight/ Quantity/ Price).</li>
+<li>Provide many shipping service options for buyer to choose(Ex: Regular Delivery, Next Day Delivery, etc).</li>
+<li>Many Calculation Options(Fixed Cost / Unit Based Cost / Percentage Based Cost / Step-or-Round based cost).</li>
+<li>Calculate each ‘item’ or ‘product category’ or ‘shipping class’  cost separately and sum to find the final shipping cost, OR Calculate entire order shipping cost together.</li>
+<li>Per Product Shipping using free AddOn.</li>
+<li>Advanced Bundle Rate Shipping using free AddOn.</li>
+<li>International shipping using Rest of the world & Rest of the country & Any Country & Any States short-codes.</li>
+<li>Use for Flat Rate Shipping and Free Shipping.</li>
+<li>Add Handling Fees.</li>
+<li>Shipping Rules Import & Export via CSV.</li>
+<li>Plain text translation of shipping calculations.</li>
+<li>Hide the column(s) which are not relevant for the business case.</li>
+<li>Multilingual support. English & German translation in built available.</li>
+<li>Excellent Support for setting it up!</li>
 </ul>
 
 = Buy Canada Post WooCommerce Shipping Rates and Print Label plugin =
@@ -163,7 +176,8 @@ Shipping rate = Base Cost  + (8 - Min Weight) * Cost per weight unit
  * minor release. Fixed technical warnings.	
 = 1.1.3 =
  * Minor release: backward compatibility for the new column added to the matrix
- 
+= 1.1.4 =
+ * Minor release: Settings and Support link in the plugins page 
 
 == Upgrade Notice ==
 = 1.0 =
@@ -176,3 +190,5 @@ Minor release: fixed technical warning
 Minor release: fixed technical warning
 = 1.1.3 =
 Minor release: backward compatibility for the new column added to the matrix
+= 1.1.4 =
+Minor release: Settings and Support link in the plugins page
