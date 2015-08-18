@@ -467,8 +467,8 @@ if (in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', ge
 					// Check users environment supports this method
 					?>
 					<div class="wf-banner updated below-h2">
-						<img class="scale-with-grid" src="http://www.wooforce.com/wp-content/uploads/2015/07/WooForce-Logo-Admin-Banner-Basic.png" alt="Wordpress / WooCommerce Canada Post Shipping with Print Label Plugin | WooForce">
-						<p class="main"><strong>Upgrade to Shipping Pro No.1 WooCommerce Shipping Plugin. Configure your shipping with the help of our experts!. 30 Day no question asked refund.</strong></p>
+						<img class="scale-with-grid" src="http://www.wooforce.com/wp-content/uploads/2015/07/WooForce-Logo-Admin-Banner-Basic.png" alt="Wordpress / WooCommerce Shipping Pro with Table Rates Plugin | WooForce">
+						<p class="main"><strong>Upgrade to Shipping Pro. No.1 WooCommerce Shipping Plugin. Configure your shipping with the help of our experts!. 30 Day no question asked refund.</strong></p>
 						<p>&nbsp;-&nbsp;Zone based shipping costs (By Country / State / Post Code).<br>
 						&nbsp;-&nbsp;Product Category based shipping costs (By Product Category/Shipping Class).<br>
 						&nbsp;-&nbsp;Unit based shipping costs (By Weight/ Quantity/ Price).<br>
